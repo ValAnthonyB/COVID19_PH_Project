@@ -1,0 +1,1972 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fe78f55eb2e949738863d9fd02c51467 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_fe78f55eb2e949738863d9fd02c51467" ></div>
+        
+</body>
+<script>    
+    
+            var map_fe78f55eb2e949738863d9fd02c51467 = L.map(
+                "map_fe78f55eb2e949738863d9fd02c51467",
+                {
+                    center: [13.194379363636365, 122.04652518542254],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5.4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ba12c02d8c774c7087f7f3cc7a0d72f6 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fe78f55eb2e949738863d9fd02c51467);
+        
+    
+            var marker_cluster_2505d1e75dca48578b9738dd52129fca = L.markerClusterGroup(
+                {}
+            );
+            map_fe78f55eb2e949738863d9fd02c51467.addLayer(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var marker_a16bc18464ad4d3681544a3eef6aca11 = L.marker(
+                [7.9981571, 124.2586537],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_d9f674749d0d4aaca8ccb4c1c8955cec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a16bc18464ad4d3681544a3eef6aca11.setIcon(icon_d9f674749d0d4aaca8ccb4c1c8955cec);
+        
+    
+        var popup_557268ee57174a56bf4448a444f3c148 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03e6ab1fc6f04f918b4c52e25e9dc58c = $(`<div id="html_03e6ab1fc6f04f918b4c52e25e9dc58c" style="width: 100.0%; height: 100.0%;">Mindanao State University - Marawi Stage: 1</div>`)[0];
+            popup_557268ee57174a56bf4448a444f3c148.setContent(html_03e6ab1fc6f04f918b4c52e25e9dc58c);
+        
+
+        marker_a16bc18464ad4d3681544a3eef6aca11.bindPopup(popup_557268ee57174a56bf4448a444f3c148)
+        ;
+
+        
+    
+    
+            var marker_ddf223b189c94e1d818fd4f64853a92f = L.marker(
+                [14.6112963, 120.99019493100002],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_9c55bc05dd0d42c2865cbdb15f705f41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ddf223b189c94e1d818fd4f64853a92f.setIcon(icon_9c55bc05dd0d42c2865cbdb15f705f41);
+        
+    
+        var popup_2d8255202fef46d392d1058b373a5464 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36624363381946bbbe1a7ca1ebb4fdcd = $(`<div id="html_36624363381946bbbe1a7ca1ebb4fdcd" style="width: 100.0%; height: 100.0%;">University of Santo Tomas Hospital Stage: 1</div>`)[0];
+            popup_2d8255202fef46d392d1058b373a5464.setContent(html_36624363381946bbbe1a7ca1ebb4fdcd);
+        
+
+        marker_ddf223b189c94e1d818fd4f64853a92f.bindPopup(popup_2d8255202fef46d392d1058b373a5464)
+        ;
+
+        
+    
+    
+            var marker_f26b836fd8094a6ca646b715294c46de = L.marker(
+                [14.609395, 120.9784765],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_91d6f5fcd1fa4bb1b485885b409f0c8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f26b836fd8094a6ca646b715294c46de.setIcon(icon_91d6f5fcd1fa4bb1b485885b409f0c8f);
+        
+    
+        var popup_f8a0cafdb0fe4f60b178d7785fafb67c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30afbfa57764486db635802b41dad1d4 = $(`<div id="html_30afbfa57764486db635802b41dad1d4" style="width: 100.0%; height: 100.0%;">Metropolitan Medical Center Stage: 1</div>`)[0];
+            popup_f8a0cafdb0fe4f60b178d7785fafb67c.setContent(html_30afbfa57764486db635802b41dad1d4);
+        
+
+        marker_f26b836fd8094a6ca646b715294c46de.bindPopup(popup_f8a0cafdb0fe4f60b178d7785fafb67c)
+        ;
+
+        
+    
+    
+            var marker_bbfde4685c714aa08d8fdfe7725e5bc2 = L.marker(
+                [15.0345719, 120.68463230116413],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_eb3d783956084e959a1a9273098a3c39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bbfde4685c714aa08d8fdfe7725e5bc2.setIcon(icon_eb3d783956084e959a1a9273098a3c39);
+        
+    
+        var popup_0c0f19c2dbea4cbeb8496cd3c8de8047 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a41eb920eed94b34bdb487cfb9d17f9a = $(`<div id="html_a41eb920eed94b34bdb487cfb9d17f9a" style="width: 100.0%; height: 100.0%;">Jose B. Lingad Memorial Regional Hospital Stage: 1</div>`)[0];
+            popup_0c0f19c2dbea4cbeb8496cd3c8de8047.setContent(html_a41eb920eed94b34bdb487cfb9d17f9a);
+        
+
+        marker_bbfde4685c714aa08d8fdfe7725e5bc2.bindPopup(popup_0c0f19c2dbea4cbeb8496cd3c8de8047)
+        ;
+
+        
+    
+    
+            var marker_f162c221709a4e5db2a93e038ff1dae9 = L.marker(
+                [15.178496500000001, 120.57187128514028],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_125c571a3bf0448d91f962055fb3d546 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f162c221709a4e5db2a93e038ff1dae9.setIcon(icon_125c571a3bf0448d91f962055fb3d546);
+        
+    
+        var popup_1961e703325a4493a8e65ef42f050f2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54613b2e642c485c871e1e281fb8a04b = $(`<div id="html_54613b2e642c485c871e1e281fb8a04b" style="width: 100.0%; height: 100.0%;">The Medical City - Clark Stage: 1</div>`)[0];
+            popup_1961e703325a4493a8e65ef42f050f2f.setContent(html_54613b2e642c485c871e1e281fb8a04b);
+        
+
+        marker_f162c221709a4e5db2a93e038ff1dae9.bindPopup(popup_1961e703325a4493a8e65ef42f050f2f)
+        ;
+
+        
+    
+    
+            var marker_1208b61fa09843df8e5b529ad51ffa49 = L.marker(
+                [14.2757531, 120.8703951],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_1fbf84c3006340cebf998fa56c66820c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1208b61fa09843df8e5b529ad51ffa49.setIcon(icon_1fbf84c3006340cebf998fa56c66820c);
+        
+    
+        var popup_a86b7d325d434ef1bef94af5bf78da7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5e2b1fc365243139f96d2f1be7bdb6d = $(`<div id="html_f5e2b1fc365243139f96d2f1be7bdb6d" style="width: 100.0%; height: 100.0%;">General Emilio Aguinaldo Memorial Hospital Stage: 1</div>`)[0];
+            popup_a86b7d325d434ef1bef94af5bf78da7b.setContent(html_f5e2b1fc365243139f96d2f1be7bdb6d);
+        
+
+        marker_1208b61fa09843df8e5b529ad51ffa49.bindPopup(popup_a86b7d325d434ef1bef94af5bf78da7b)
+        ;
+
+        
+    
+    
+            var marker_f4e4209e69984a9da4a92e1ef889103c = L.marker(
+                [13.76611215, 121.06580988889003],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_f1e69702d1cf4d1683eba92a32b67255 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f4e4209e69984a9da4a92e1ef889103c.setIcon(icon_f1e69702d1cf4d1683eba92a32b67255);
+        
+    
+        var popup_3195f4c8c7984a32b7e523948f412bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86b8239222bd41caa931de8abbc4a5ce = $(`<div id="html_86b8239222bd41caa931de8abbc4a5ce" style="width: 100.0%; height: 100.0%;">Batangas Medical Center Stage: 1</div>`)[0];
+            popup_3195f4c8c7984a32b7e523948f412bb0.setContent(html_86b8239222bd41caa931de8abbc4a5ce);
+        
+
+        marker_f4e4209e69984a9da4a92e1ef889103c.bindPopup(popup_3195f4c8c7984a32b7e523948f412bb0)
+        ;
+
+        
+    
+    
+            var marker_5eaa412ed7884561932ec7b49dc99a0b = L.marker(
+                [14.441345949999999, 120.94714005604266],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_0008ea7f06e74344a64fafbf3cf516dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5eaa412ed7884561932ec7b49dc99a0b.setIcon(icon_0008ea7f06e74344a64fafbf3cf516dd);
+        
+    
+        var popup_dfb16d8e61cb411396f0f7c5f777faac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_327510df6c2c4ff49430c1b94958a1d3 = $(`<div id="html_327510df6c2c4ff49430c1b94958a1d3" style="width: 100.0%; height: 100.0%;">Southern Tagalog Regional Hospital Stage: 1</div>`)[0];
+            popup_dfb16d8e61cb411396f0f7c5f777faac.setContent(html_327510df6c2c4ff49430c1b94958a1d3);
+        
+
+        marker_5eaa412ed7884561932ec7b49dc99a0b.bindPopup(popup_dfb16d8e61cb411396f0f7c5f777faac)
+        ;
+
+        
+    
+    
+            var marker_b49c724b02044821b8aff61c4a0efdb1 = L.marker(
+                [10.7158972, 122.5610256206877],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_1158944e2f774bab9521ea8bcf6ce514 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b49c724b02044821b8aff61c4a0efdb1.setIcon(icon_1158944e2f774bab9521ea8bcf6ce514);
+        
+    
+        var popup_15295280d1d24f59a32e41daf630c51b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_88e5c198f3db447e8096c3d2c3afa796 = $(`<div id="html_88e5c198f3db447e8096c3d2c3afa796" style="width: 100.0%; height: 100.0%;">West Visayas State University Medical Center Stage: 1</div>`)[0];
+            popup_15295280d1d24f59a32e41daf630c51b.setContent(html_88e5c198f3db447e8096c3d2c3afa796);
+        
+
+        marker_b49c724b02044821b8aff61c4a0efdb1.bindPopup(popup_15295280d1d24f59a32e41daf630c51b)
+        ;
+
+        
+    
+    
+            var marker_c98fd6f887c34b749011361ecdac00bf = L.marker(
+                [6.90376135, 122.0786621101806],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_743dba1b900b4f36aa1d53df223658d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c98fd6f887c34b749011361ecdac00bf.setIcon(icon_743dba1b900b4f36aa1d53df223658d8);
+        
+    
+        var popup_2ab2fcaa27aa4d75b9e53868e399184e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99a682001aab4e438979422d67a1db16 = $(`<div id="html_99a682001aab4e438979422d67a1db16" style="width: 100.0%; height: 100.0%;">Department of Agriculture (RSO-Zamboanga City) Stage: 1</div>`)[0];
+            popup_2ab2fcaa27aa4d75b9e53868e399184e.setContent(html_99a682001aab4e438979422d67a1db16);
+        
+
+        marker_c98fd6f887c34b749011361ecdac00bf.bindPopup(popup_2ab2fcaa27aa4d75b9e53868e399184e)
+        ;
+
+        
+    
+    
+            var marker_94a81a8398e844ac80b877a7904109e6 = L.marker(
+                [8.48539205, 124.64963773057275],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_d710808a5f9f4915aa195e74a3212b2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_94a81a8398e844ac80b877a7904109e6.setIcon(icon_d710808a5f9f4915aa195e74a3212b2f);
+        
+    
+        var popup_c6fb6b0a13aa43a2921c09df9c5fbfde = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f742ba3e810c4db490c41dac6c0007db = $(`<div id="html_f742ba3e810c4db490c41dac6c0007db" style="width: 100.0%; height: 100.0%;">Northern Mindanao Medical Center Stage: 1</div>`)[0];
+            popup_c6fb6b0a13aa43a2921c09df9c5fbfde.setContent(html_f742ba3e810c4db490c41dac6c0007db);
+        
+
+        marker_94a81a8398e844ac80b877a7904109e6.bindPopup(popup_c6fb6b0a13aa43a2921c09df9c5fbfde)
+        ;
+
+        
+    
+    
+            var marker_21da90ffa92a49708b2ec78b2cfe9f1e = L.marker(
+                [8.498281500000001, 124.63042990078533],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_f7a8631d5a4a4df48eea1426254a9933 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_21da90ffa92a49708b2ec78b2cfe9f1e.setIcon(icon_f7a8631d5a4a4df48eea1426254a9933);
+        
+    
+        var popup_94375e2dd9f549ee80c4912064adb499 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a5b2e7232e44600b10f75014f0e632f = $(`<div id="html_2a5b2e7232e44600b10f75014f0e632f" style="width: 100.0%; height: 100.0%;">Polymedic Medical Plaza Stage: 1</div>`)[0];
+            popup_94375e2dd9f549ee80c4912064adb499.setContent(html_2a5b2e7232e44600b10f75014f0e632f);
+        
+
+        marker_21da90ffa92a49708b2ec78b2cfe9f1e.bindPopup(popup_94375e2dd9f549ee80c4912064adb499)
+        ;
+
+        
+    
+    
+            var marker_8755589a2c3140d583c8c62279ac7b79 = L.marker(
+                [14.58219355, 120.98289979408534],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_16d12b17ab8741c18ae400a3e5bf0b74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_8755589a2c3140d583c8c62279ac7b79.setIcon(icon_16d12b17ab8741c18ae400a3e5bf0b74);
+        
+    
+        var popup_667830b2da104d4fadce137e481ffd99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1443273efdf4e2f9218585c9d52d01b = $(`<div id="html_a1443273efdf4e2f9218585c9d52d01b" style="width: 100.0%; height: 100.0%;">Manila Doctors Hospital Stage: 1</div>`)[0];
+            popup_667830b2da104d4fadce137e481ffd99.setContent(html_a1443273efdf4e2f9218585c9d52d01b);
+        
+
+        marker_8755589a2c3140d583c8c62279ac7b79.bindPopup(popup_667830b2da104d4fadce137e481ffd99)
+        ;
+
+        
+    
+    
+            var marker_f0e8925d52624d2881bb1e06888f89b7 = L.marker(
+                [14.06935125, 121.30706664808834],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_1af6150e0d21411cac988961ddf1231f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f0e8925d52624d2881bb1e06888f89b7.setIcon(icon_1af6150e0d21411cac988961ddf1231f);
+        
+    
+        var popup_5caeed080cd14228b0b580b37e8dde9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdcaf75d9a8142f8a9ff2e09323fe8df = $(`<div id="html_cdcaf75d9a8142f8a9ff2e09323fe8df" style="width: 100.0%; height: 100.0%;">San Pablo Colleges Medical Center Stage: 1</div>`)[0];
+            popup_5caeed080cd14228b0b580b37e8dde9c.setContent(html_cdcaf75d9a8142f8a9ff2e09323fe8df);
+        
+
+        marker_f0e8925d52624d2881bb1e06888f89b7.bindPopup(popup_5caeed080cd14228b0b580b37e8dde9c)
+        ;
+
+        
+    
+    
+            var marker_b4e358a0cab949289fff5db6ab93bfc7 = L.marker(
+                [6.8517729, 124.4299819],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_c13f33b02e5c4e958e0ff6a54ed35bad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b4e358a0cab949289fff5db6ab93bfc7.setIcon(icon_c13f33b02e5c4e958e0ff6a54ed35bad);
+        
+    
+        var popup_a83235fdd26c41f29b44f3f6c9e3bf20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1153a3f6d01b49ecb9445e11f5396f30 = $(`<div id="html_1153a3f6d01b49ecb9445e11f5396f30" style="width: 100.0%; height: 100.0%;">Maguindanao Provincial Hospital Stage: 1</div>`)[0];
+            popup_a83235fdd26c41f29b44f3f6c9e3bf20.setContent(html_1153a3f6d01b49ecb9445e11f5396f30);
+        
+
+        marker_b4e358a0cab949289fff5db6ab93bfc7.bindPopup(popup_a83235fdd26c41f29b44f3f6c9e3bf20)
+        ;
+
+        
+    
+    
+            var marker_dddb47d39c8b4d3e8a5199df1d62237b = L.marker(
+                [7.23580805, 124.26926327523924],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_48115900e4964ca1be7cd95460239b68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dddb47d39c8b4d3e8a5199df1d62237b.setIcon(icon_48115900e4964ca1be7cd95460239b68);
+        
+    
+        var popup_2804e606399f4bfb9fe0c63caafe2ebd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cfc32fd0de74ebfa7879fd2164520e4 = $(`<div id="html_9cfc32fd0de74ebfa7879fd2164520e4" style="width: 100.0%; height: 100.0%;">Cotabato Sanitarium Hospital Stage: 1</div>`)[0];
+            popup_2804e606399f4bfb9fe0c63caafe2ebd.setContent(html_9cfc32fd0de74ebfa7879fd2164520e4);
+        
+
+        marker_dddb47d39c8b4d3e8a5199df1d62237b.bindPopup(popup_2804e606399f4bfb9fe0c63caafe2ebd)
+        ;
+
+        
+    
+    
+            var marker_d6491836c6eb4df9b409f311c7a9f68f = L.marker(
+                [6.046390349999999, 121.00182838386948],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_f3bc4f23426647bd986172703d5a626a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d6491836c6eb4df9b409f311c7a9f68f.setIcon(icon_f3bc4f23426647bd986172703d5a626a);
+        
+    
+        var popup_6aca260538b744959c7b31757ebcc34a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_837564c304c749b392748838c4fb0d4e = $(`<div id="html_837564c304c749b392748838c4fb0d4e" style="width: 100.0%; height: 100.0%;">Sulu Provincial Hospital Stage: 1</div>`)[0];
+            popup_6aca260538b744959c7b31757ebcc34a.setContent(html_837564c304c749b392748838c4fb0d4e);
+        
+
+        marker_d6491836c6eb4df9b409f311c7a9f68f.bindPopup(popup_6aca260538b744959c7b31757ebcc34a)
+        ;
+
+        
+    
+    
+            var marker_5adfd3b4852c49958a2823614b2c8f4e = L.marker(
+                [5.0255715, 119.77693377678145],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_65fe8e09fdfb43e598ba30f64adf5511 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5adfd3b4852c49958a2823614b2c8f4e.setIcon(icon_65fe8e09fdfb43e598ba30f64adf5511);
+        
+    
+        var popup_3fe519760241408aa902ef0342dd3ffb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12a5f0faae1447ed84d75c4f787f0974 = $(`<div id="html_12a5f0faae1447ed84d75c4f787f0974" style="width: 100.0%; height: 100.0%;">Datu Halun Sakilan Memorial Hospital Stage: 1</div>`)[0];
+            popup_3fe519760241408aa902ef0342dd3ffb.setContent(html_12a5f0faae1447ed84d75c4f787f0974);
+        
+
+        marker_5adfd3b4852c49958a2823614b2c8f4e.bindPopup(popup_3fe519760241408aa902ef0342dd3ffb)
+        ;
+
+        
+    
+    
+            var marker_d973d730850b4f6699f949af3240fd97 = L.marker(
+                [6.6562562, 122.13665214186068],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_66e37a80eea34ec8858926a1c21ccf16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d973d730850b4f6699f949af3240fd97.setIcon(icon_66e37a80eea34ec8858926a1c21ccf16);
+        
+    
+        var popup_265328b6d45f464c95320183b8ea5bc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80cbfc2d91cd4e43b8494effd5cb5a3b = $(`<div id="html_80cbfc2d91cd4e43b8494effd5cb5a3b" style="width: 100.0%; height: 100.0%;">Lamitan District Hospital Stage: 1</div>`)[0];
+            popup_265328b6d45f464c95320183b8ea5bc1.setContent(html_80cbfc2d91cd4e43b8494effd5cb5a3b);
+        
+
+        marker_d973d730850b4f6699f949af3240fd97.bindPopup(popup_265328b6d45f464c95320183b8ea5bc1)
+        ;
+
+        
+    
+    
+            var marker_a27054a2727d40fab60dfb82bd550d32 = L.marker(
+                [7.42072955, 125.82878036991721],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_d9f8a62698ac485f8237f739e907127b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_a27054a2727d40fab60dfb82bd550d32.setIcon(icon_d9f8a62698ac485f8237f739e907127b);
+        
+    
+        var popup_83b9cb63ac5349ad938fad06c18b6f58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1965ff13c6a644dca46295ed4847dd6f = $(`<div id="html_1965ff13c6a644dca46295ed4847dd6f" style="width: 100.0%; height: 100.0%;">Davao Regional Medical Center Stage: 1</div>`)[0];
+            popup_83b9cb63ac5349ad938fad06c18b6f58.setContent(html_1965ff13c6a644dca46295ed4847dd6f);
+        
+
+        marker_a27054a2727d40fab60dfb82bd550d32.bindPopup(popup_83b9cb63ac5349ad938fad06c18b6f58)
+        ;
+
+        
+    
+    
+            var marker_b3d0064366a643de9a59195b4a238287 = L.marker(
+                [9.322556899999999, 123.300338329576],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_18c926fd66f54de2b4fe1f4e69174765 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b3d0064366a643de9a59195b4a238287.setIcon(icon_18c926fd66f54de2b4fe1f4e69174765);
+        
+    
+        var popup_f1b8153364f244e3819168d449e4b4c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7d0d7ff3f2a457cbfc233f0f4e57961 = $(`<div id="html_c7d0d7ff3f2a457cbfc233f0f4e57961" style="width: 100.0%; height: 100.0%;">Negros Oriental Provincial Hospital Stage: 1</div>`)[0];
+            popup_f1b8153364f244e3819168d449e4b4c4.setContent(html_c7d0d7ff3f2a457cbfc233f0f4e57961);
+        
+
+        marker_b3d0064366a643de9a59195b4a238287.bindPopup(popup_f1b8153364f244e3819168d449e4b4c4)
+        ;
+
+        
+    
+    
+            var marker_482b55be82584e8cb2611f535636ad0c = L.marker(
+                [13.946984050000001, 121.58508706872695],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_fd3b668cc35f43bfa7c79712f9d99018 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_482b55be82584e8cb2611f535636ad0c.setIcon(icon_fd3b668cc35f43bfa7c79712f9d99018);
+        
+    
+        var popup_bb82362b09bc411197de1c9b5fc7f36c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d69997ad011b4bd3834644d624b32c82 = $(`<div id="html_d69997ad011b4bd3834644d624b32c82" style="width: 100.0%; height: 100.0%;">Lucena United Doctors Hospital and Medical Center Stage: 1</div>`)[0];
+            popup_bb82362b09bc411197de1c9b5fc7f36c.setContent(html_d69997ad011b4bd3834644d624b32c82);
+        
+
+        marker_482b55be82584e8cb2611f535636ad0c.bindPopup(popup_bb82362b09bc411197de1c9b5fc7f36c)
+        ;
+
+        
+    
+    
+            var marker_30693c713b394a3aaa08d90d3eb41548 = L.marker(
+                [14.16052895, 121.24256647998524],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_b39370a422db43ce95b4927d2b5c1015 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_30693c713b394a3aaa08d90d3eb41548.setIcon(icon_b39370a422db43ce95b4927d2b5c1015);
+        
+    
+        var popup_e177d44cbcc84d16b9d3b363cd64cd0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_004610749b7b44ba94445b3e8ec768d2 = $(`<div id="html_004610749b7b44ba94445b3e8ec768d2" style="width: 100.0%; height: 100.0%;">University of the Philippines - Los Baños Stage: 1</div>`)[0];
+            popup_e177d44cbcc84d16b9d3b363cd64cd0e.setContent(html_004610749b7b44ba94445b3e8ec768d2);
+        
+
+        marker_30693c713b394a3aaa08d90d3eb41548.bindPopup(popup_e177d44cbcc84d16b9d3b363cd64cd0e)
+        ;
+
+        
+    
+    
+            var marker_3ca7028e93a04eb39159e35a1514a7bc = L.marker(
+                [14.2064252, 121.15253598355702],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_87a7fbf317984e968f8fab723be9acfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3ca7028e93a04eb39159e35a1514a7bc.setIcon(icon_87a7fbf317984e968f8fab723be9acfc);
+        
+    
+        var popup_f962794bc8584c1da23db723f8aeb975 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb79add030d04c14b2ee235e314f97fe = $(`<div id="html_eb79add030d04c14b2ee235e314f97fe" style="width: 100.0%; height: 100.0%;">Calamba Medical Center Stage: 1</div>`)[0];
+            popup_f962794bc8584c1da23db723f8aeb975.setContent(html_eb79add030d04c14b2ee235e314f97fe);
+        
+
+        marker_3ca7028e93a04eb39159e35a1514a7bc.bindPopup(popup_f962794bc8584c1da23db723f8aeb975)
+        ;
+
+        
+    
+    
+            var marker_642143634a4d47d7a124f86ac9cf3c4f = L.marker(
+                [14.5575626, 121.0172273],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_680c45efe3a34d05bc184a4b53c1209c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_642143634a4d47d7a124f86ac9cf3c4f.setIcon(icon_680c45efe3a34d05bc184a4b53c1209c);
+        
+    
+        var popup_f260b36b266041fe9986c0fa56e69443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5a65329998340d0897ee35c718f29dc = $(`<div id="html_b5a65329998340d0897ee35c718f29dc" style="width: 100.0%; height: 100.0%;">Singapore Diagnostics Stage: 1</div>`)[0];
+            popup_f260b36b266041fe9986c0fa56e69443.setContent(html_b5a65329998340d0897ee35c718f29dc);
+        
+
+        marker_642143634a4d47d7a124f86ac9cf3c4f.bindPopup(popup_f260b36b266041fe9986c0fa56e69443)
+        ;
+
+        
+    
+    
+            var marker_cd0b6c694aaf484c813816a51d5f91be = L.marker(
+                [15.478359300000001, 120.58689719271746],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_45a6e8369d994b298b1c29e14e067f57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cd0b6c694aaf484c813816a51d5f91be.setIcon(icon_45a6e8369d994b298b1c29e14e067f57);
+        
+    
+        var popup_446a75341a1f400eb7f21b10c77a95d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31f32d5042f640f3a2a95c8c7774682c = $(`<div id="html_31f32d5042f640f3a2a95c8c7774682c" style="width: 100.0%; height: 100.0%;">Central Luzon Doctors' Hospital Stage: 1</div>`)[0];
+            popup_446a75341a1f400eb7f21b10c77a95d1.setContent(html_31f32d5042f640f3a2a95c8c7774682c);
+        
+
+        marker_cd0b6c694aaf484c813816a51d5f91be.bindPopup(popup_446a75341a1f400eb7f21b10c77a95d1)
+        ;
+
+        
+    
+    
+            var marker_2ce148502a354875afa77761ad713dea = L.marker(
+                [14.6782571, 120.53021274307176],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_b126a74d01cf4396bf84ebc7bb130018 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2ce148502a354875afa77761ad713dea.setIcon(icon_b126a74d01cf4396bf84ebc7bb130018);
+        
+    
+        var popup_111e6e23cfff4c38977c5a9f85e73dc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6823167b73a4a77b50e2ec294f475ff = $(`<div id="html_c6823167b73a4a77b50e2ec294f475ff" style="width: 100.0%; height: 100.0%;">Bataan General Hospital and Medical Center Stage: 1</div>`)[0];
+            popup_111e6e23cfff4c38977c5a9f85e73dc9.setContent(html_c6823167b73a4a77b50e2ec294f475ff);
+        
+
+        marker_2ce148502a354875afa77761ad713dea.bindPopup(popup_111e6e23cfff4c38977c5a9f85e73dc9)
+        ;
+
+        
+    
+    
+            var marker_7b42de05f0e847e48dd64ee64ce28d80 = L.marker(
+                [14.52830125, 121.0690247399506],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_46175e2b1ef0419f9f39328e838e2f83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_7b42de05f0e847e48dd64ee64ce28d80.setIcon(icon_46175e2b1ef0419f9f39328e838e2f83);
+        
+    
+        var popup_159c08a000cf430ba3d9c4a048a4df95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc2bc041c5494f59b35fa99556f161a2 = $(`<div id="html_bc2bc041c5494f59b35fa99556f161a2" style="width: 100.0%; height: 100.0%;">Taguig City Health Office Stage: 1</div>`)[0];
+            popup_159c08a000cf430ba3d9c4a048a4df95.setContent(html_bc2bc041c5494f59b35fa99556f161a2);
+        
+
+        marker_7b42de05f0e847e48dd64ee64ce28d80.bindPopup(popup_159c08a000cf430ba3d9c4a048a4df95)
+        ;
+
+        
+    
+    
+            var marker_d533aab7d8b7445896cfc7b30ae22984 = L.marker(
+                [14.5540089, 121.0473378],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_57876a03df0243199db374f72c48140f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d533aab7d8b7445896cfc7b30ae22984.setIcon(icon_57876a03df0243199db374f72c48140f);
+        
+    
+        var popup_c7cc437c26e84c008d3813774cc04666 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64e57be5c7e44536a9df60cba8af9bfb = $(`<div id="html_64e57be5c7e44536a9df60cba8af9bfb" style="width: 100.0%; height: 100.0%;">Hi-Precision Diagnostics - Taguig Stage: 1</div>`)[0];
+            popup_c7cc437c26e84c008d3813774cc04666.setContent(html_64e57be5c7e44536a9df60cba8af9bfb);
+        
+
+        marker_d533aab7d8b7445896cfc7b30ae22984.bindPopup(popup_c7cc437c26e84c008d3813774cc04666)
+        ;
+
+        
+    
+    
+            var marker_f159b6c0ec884533a378660692533fc2 = L.marker(
+                [15.1422283, 120.5892671],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_694e73b44b4440f499a105e97c54a9cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f159b6c0ec884533a378660692533fc2.setIcon(icon_694e73b44b4440f499a105e97c54a9cc);
+        
+    
+        var popup_e15b963ec6f64e0d9b434662b4db1fa9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01915ed7683346569825dcff06b2cda4 = $(`<div id="html_01915ed7683346569825dcff06b2cda4" style="width: 100.0%; height: 100.0%;">Ospital Ning Angeles Stage: 1</div>`)[0];
+            popup_e15b963ec6f64e0d9b434662b4db1fa9.setContent(html_01915ed7683346569825dcff06b2cda4);
+        
+
+        marker_f159b6c0ec884533a378660692533fc2.bindPopup(popup_e15b963ec6f64e0d9b434662b4db1fa9)
+        ;
+
+        
+    
+    
+            var marker_fb07ba2c3aaf407da7396303c281e3d0 = L.marker(
+                [14.5576905, 121.013563],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_0f7b64668a0c4166802b8401e875fc26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_fb07ba2c3aaf407da7396303c281e3d0.setIcon(icon_0f7b64668a0c4166802b8401e875fc26);
+        
+    
+        var popup_d72fde86da334379b03aa0bb8c937598 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c65c9d45606b44f9bfa2aee980b760d6 = $(`<div id="html_c65c9d45606b44f9bfa2aee980b760d6" style="width: 100.0%; height: 100.0%;">Kaiser Medical Center, Philippines Stage: 1</div>`)[0];
+            popup_d72fde86da334379b03aa0bb8c937598.setContent(html_c65c9d45606b44f9bfa2aee980b760d6);
+        
+
+        marker_fb07ba2c3aaf407da7396303c281e3d0.bindPopup(popup_d72fde86da334379b03aa0bb8c937598)
+        ;
+
+        
+    
+    
+            var marker_0d164c59c5294ce88484030b8bce569d = L.marker(
+                [15.0444666, 120.68550455098412],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_1d053e0d524d430881add8f4fab1eb52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_0d164c59c5294ce88484030b8bce569d.setIcon(icon_1d053e0d524d430881add8f4fab1eb52);
+        
+    
+        var popup_a648dcd02acb4d37910969f7cd897482 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83da9e6910af4f679b89f13eb0fb2555 = $(`<div id="html_83da9e6910af4f679b89f13eb0fb2555" style="width: 100.0%; height: 100.0%;">GreenCity Medical Center Stage: 1</div>`)[0];
+            popup_a648dcd02acb4d37910969f7cd897482.setContent(html_83da9e6910af4f679b89f13eb0fb2555);
+        
+
+        marker_0d164c59c5294ce88484030b8bce569d.bindPopup(popup_a648dcd02acb4d37910969f7cd897482)
+        ;
+
+        
+    
+    
+            var marker_1d9f6ae34b464cb5934ca24175912f3e = L.marker(
+                [7.8437669, 123.42951892821145],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_2603fcc2b158477e982b5322ac9413cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1d9f6ae34b464cb5934ca24175912f3e.setIcon(icon_2603fcc2b158477e982b5322ac9413cb);
+        
+    
+        var popup_a1ba2a2c60794ead8984742acfe5e4d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_163a24b5b46b45278891befe038566b6 = $(`<div id="html_163a24b5b46b45278891befe038566b6" style="width: 100.0%; height: 100.0%;">Zamboanga del Sur Medical Center Stage: 1</div>`)[0];
+            popup_a1ba2a2c60794ead8984742acfe5e4d6.setContent(html_163a24b5b46b45278891befe038566b6);
+        
+
+        marker_1d9f6ae34b464cb5934ca24175912f3e.bindPopup(popup_a1ba2a2c60794ead8984742acfe5e4d6)
+        ;
+
+        
+    
+    
+            var marker_b51825a8ba4d42169fe654bdec302533 = L.marker(
+                [14.63476, 120.997133],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_19bbe345a12a4420bb68fcd1663005b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b51825a8ba4d42169fe654bdec302533.setIcon(icon_19bbe345a12a4420bb68fcd1663005b9);
+        
+    
+        var popup_5ef136f8a1a544dfb8e470567ec3d25e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ceed4355590a4e7eb7d5588b9fb2f834 = $(`<div id="html_ceed4355590a4e7eb7d5588b9fb2f834" style="width: 100.0%; height: 100.0%;">New World Diagnostics Quezon City Stage: 1</div>`)[0];
+            popup_5ef136f8a1a544dfb8e470567ec3d25e.setContent(html_ceed4355590a4e7eb7d5588b9fb2f834);
+        
+
+        marker_b51825a8ba4d42169fe654bdec302533.bindPopup(popup_5ef136f8a1a544dfb8e470567ec3d25e)
+        ;
+
+        
+    
+    
+            var marker_2c51ce6297474f519c29e57f554c909a = L.marker(
+                [8.004723649999999, 124.2835538892562],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_357ea6f736f04df5afa3446ad8e38543 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2c51ce6297474f519c29e57f554c909a.setIcon(icon_357ea6f736f04df5afa3446ad8e38543);
+        
+    
+        var popup_6a52d4cefc034262a466e01cb9e8e0e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8311a685dcb488481eb0ed5cc9c79ef = $(`<div id="html_c8311a685dcb488481eb0ed5cc9c79ef" style="width: 100.0%; height: 100.0%;">Amai Pakpak Medical Center Stage: 1</div>`)[0];
+            popup_6a52d4cefc034262a466e01cb9e8e0e8.setContent(html_c8311a685dcb488481eb0ed5cc9c79ef);
+        
+
+        marker_2c51ce6297474f519c29e57f554c909a.bindPopup(popup_6a52d4cefc034262a466e01cb9e8e0e8)
+        ;
+
+        
+    
+    
+            var marker_20b5884f89214deab86eca4553a9f9fa = L.marker(
+                [6.1257417499999995, 125.18581885949962],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_45846a04375a4e16867d303c85c7c2dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_20b5884f89214deab86eca4553a9f9fa.setIcon(icon_45846a04375a4e16867d303c85c7c2dd);
+        
+    
+        var popup_9b087b1d5f384dda8ad7a5d877eaff7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_744c4700816349668c1714612dc0f08c = $(`<div id="html_744c4700816349668c1714612dc0f08c" style="width: 100.0%; height: 100.0%;">Dr. Jorge P. Royeca Hospital Stage: 1</div>`)[0];
+            popup_9b087b1d5f384dda8ad7a5d877eaff7b.setContent(html_744c4700816349668c1714612dc0f08c);
+        
+
+        marker_20b5884f89214deab86eca4553a9f9fa.bindPopup(popup_9b087b1d5f384dda8ad7a5d877eaff7b)
+        ;
+
+        
+    
+    
+            var marker_dd2981374d60419386c6190c05265ec4 = L.marker(
+                [14.60097145, 121.09228884336243],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_fddbc4d1cd2140e183f6a985cfaeb63b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dd2981374d60419386c6190c05265ec4.setIcon(icon_fddbc4d1cd2140e183f6a985cfaeb63b);
+        
+    
+        var popup_25b076e479bd4503afe15993be6ab1a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61af72679a11448d9838cba967e6a4bf = $(`<div id="html_61af72679a11448d9838cba967e6a4bf" style="width: 100.0%; height: 100.0%;">Pasig Doctors Medical Center Stage: 1</div>`)[0];
+            popup_25b076e479bd4503afe15993be6ab1a8.setContent(html_61af72679a11448d9838cba967e6a4bf);
+        
+
+        marker_dd2981374d60419386c6190c05265ec4.bindPopup(popup_25b076e479bd4503afe15993be6ab1a8)
+        ;
+
+        
+    
+    
+            var marker_e3e5d5da382f470bb18998cce31f5dd8 = L.marker(
+                [10.2824823, 123.98988755403636],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_740e65c38bf04e3ba747676b82ccefa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_e3e5d5da382f470bb18998cce31f5dd8.setIcon(icon_740e65c38bf04e3ba747676b82ccefa5);
+        
+    
+        var popup_2a44587fa8ef4449a5cb99c22e3a5536 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_78ed7e7c8c724505b68a5ae0c99fe0a5 = $(`<div id="html_78ed7e7c8c724505b68a5ae0c99fe0a5" style="width: 100.0%; height: 100.0%;">ARC Hospitals Stage: 1</div>`)[0];
+            popup_2a44587fa8ef4449a5cb99c22e3a5536.setContent(html_78ed7e7c8c724505b68a5ae0c99fe0a5);
+        
+
+        marker_e3e5d5da382f470bb18998cce31f5dd8.bindPopup(popup_2a44587fa8ef4449a5cb99c22e3a5536)
+        ;
+
+        
+    
+    
+            var marker_97530c93d0994dc0a6fa05c2a0dd6b8d = L.marker(
+                [14.839443, 120.75219187412839],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_b49fca413c3143dca896cc17b35a092d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_97530c93d0994dc0a6fa05c2a0dd6b8d.setIcon(icon_b49fca413c3143dca896cc17b35a092d);
+        
+    
+        var popup_c16a7f2864bb4235bea21c4e463006b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d030e96b9e384d3b950522c9d3af18bc = $(`<div id="html_d030e96b9e384d3b950522c9d3af18bc" style="width: 100.0%; height: 100.0%;">Divine Word Hospital, Bulacan Stage: 1</div>`)[0];
+            popup_c16a7f2864bb4235bea21c4e463006b4.setContent(html_d030e96b9e384d3b950522c9d3af18bc);
+        
+
+        marker_97530c93d0994dc0a6fa05c2a0dd6b8d.bindPopup(popup_c16a7f2864bb4235bea21c4e463006b4)
+        ;
+
+        
+    
+    
+            var marker_308b9256a484425fb044041d5d4842a0 = L.marker(
+                [8.9433144, 125.53951165072012],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_16b171205a5a4d47b344422ad2fea142 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_308b9256a484425fb044041d5d4842a0.setIcon(icon_16b171205a5a4d47b344422ad2fea142);
+        
+    
+        var popup_0d8b7f1f20174744874e9295ccae2c48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cebc51fc904b47eea81c0e3128dc0391 = $(`<div id="html_cebc51fc904b47eea81c0e3128dc0391" style="width: 100.0%; height: 100.0%;">Center for Health Development - CARAGA Stage: 1</div>`)[0];
+            popup_0d8b7f1f20174744874e9295ccae2c48.setContent(html_cebc51fc904b47eea81c0e3128dc0391);
+        
+
+        marker_308b9256a484425fb044041d5d4842a0.bindPopup(popup_0d8b7f1f20174744874e9295ccae2c48)
+        ;
+
+        
+    
+    
+            var marker_9090eefef25b44f590d850b41d3a2348 = L.marker(
+                [16.0484357, 120.34096496993467],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_f6dee3c621ad4bc4b66b8c8208525719 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9090eefef25b44f590d850b41d3a2348.setIcon(icon_f6dee3c621ad4bc4b66b8c8208525719);
+        
+    
+        var popup_ca9a9adc7e5045a78ac55462537dc783 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_145dfb89424c4306ae7ea9d8fc2ca954 = $(`<div id="html_145dfb89424c4306ae7ea9d8fc2ca954" style="width: 100.0%; height: 100.0%;">Region 1 Medical Center Stage: 1</div>`)[0];
+            popup_ca9a9adc7e5045a78ac55462537dc783.setContent(html_145dfb89424c4306ae7ea9d8fc2ca954);
+        
+
+        marker_9090eefef25b44f590d850b41d3a2348.bindPopup(popup_ca9a9adc7e5045a78ac55462537dc783)
+        ;
+
+        
+    
+    
+            var marker_b15a02ffde784088907295ff570042d8 = L.marker(
+                [14.5593106, 121.01480235528001],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_f719768a8e3c45c9a3b73c620d4353b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b15a02ffde784088907295ff570042d8.setIcon(icon_f719768a8e3c45c9a3b73c620d4353b5);
+        
+    
+        var popup_f1004c23b4324630ac4a95c2e6737079 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22c7ddf0e7eb4307999f10dd820a62fb = $(`<div id="html_22c7ddf0e7eb4307999f10dd820a62fb" style="width: 100.0%; height: 100.0%;">Makati Medical Center Stage: 2</div>`)[0];
+            popup_f1004c23b4324630ac4a95c2e6737079.setContent(html_22c7ddf0e7eb4307999f10dd820a62fb);
+        
+
+        marker_b15a02ffde784088907295ff570042d8.bindPopup(popup_f1004c23b4324630ac4a95c2e6737079)
+        ;
+
+        
+    
+    
+            var marker_d0ec1ef7cb7c4a6ebd2517b09b997c75 = L.marker(
+                [11.28894, 124.9579409015796],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_7a74141d43f246fba133af1c7c55ab94 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d0ec1ef7cb7c4a6ebd2517b09b997c75.setIcon(icon_7a74141d43f246fba133af1c7c55ab94);
+        
+    
+        var popup_dda852ae8c134e2c8f8cc46622757228 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6e74d6df8ea486b804549e8ca87080c = $(`<div id="html_c6e74d6df8ea486b804549e8ca87080c" style="width: 100.0%; height: 100.0%;">Eastern Visayas Regional Medical Center Stage: 2</div>`)[0];
+            popup_dda852ae8c134e2c8f8cc46622757228.setContent(html_c6e74d6df8ea486b804549e8ca87080c);
+        
+
+        marker_d0ec1ef7cb7c4a6ebd2517b09b997c75.bindPopup(popup_dda852ae8c134e2c8f8cc46622757228)
+        ;
+
+        
+    
+    
+            var marker_76625c7670ef44a3b825782ec0c08f06 = L.marker(
+                [14.646848250000001, 121.04721757276744],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_fd0c03b259b54a8b826e8786e301e22e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_76625c7670ef44a3b825782ec0c08f06.setIcon(icon_fd0c03b259b54a8b826e8786e301e22e);
+        
+    
+        var popup_1a35282e53f54275b60bf6e117f9958d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79314203dc9544d2aca4ddff8ed1b062 = $(`<div id="html_79314203dc9544d2aca4ddff8ed1b062" style="width: 100.0%; height: 100.0%;">National Kidney and Transplant Institute Stage: 2</div>`)[0];
+            popup_1a35282e53f54275b60bf6e117f9958d.setContent(html_79314203dc9544d2aca4ddff8ed1b062);
+        
+
+        marker_76625c7670ef44a3b825782ec0c08f06.bindPopup(popup_1a35282e53f54275b60bf6e117f9958d)
+        ;
+
+        
+    
+    
+            var marker_d0fcd20b48d5481b8b83c6c222a6ba88 = L.marker(
+                [14.591333299999999, 121.03302242036543],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_9edfc84cf96f46c594d774715db3b309 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d0fcd20b48d5481b8b83c6c222a6ba88.setIcon(icon_9edfc84cf96f46c594d774715db3b309);
+        
+    
+        var popup_af9cae6887eb43df9c3d5a3a558beb33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b5b38a3664f420fa5e8ba462437229d = $(`<div id="html_4b5b38a3664f420fa5e8ba462437229d" style="width: 100.0%; height: 100.0%;">High Pointe Medical Hub Stage: 2</div>`)[0];
+            popup_af9cae6887eb43df9c3d5a3a558beb33.setContent(html_4b5b38a3664f420fa5e8ba462437229d);
+        
+
+        marker_d0fcd20b48d5481b8b83c6c222a6ba88.bindPopup(popup_af9cae6887eb43df9c3d5a3a558beb33)
+        ;
+
+        
+    
+    
+            var marker_8f1f5534531d418596b35ecf0e5eb01d = L.marker(
+                [14.65153595, 121.07171720802569],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_814078aa27244833bf692286c7bd1938 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f1f5534531d418596b35ecf0e5eb01d.setIcon(icon_814078aa27244833bf692286c7bd1938);
+        
+    
+        var popup_38a0a6242c4e46e9af22f8b9dda923d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fb2a40442664799869047f4ae3f62d0 = $(`<div id="html_5fb2a40442664799869047f4ae3f62d0" style="width: 100.0%; height: 100.0%;">Philippine Genome Center Stage: 2</div>`)[0];
+            popup_38a0a6242c4e46e9af22f8b9dda923d1.setContent(html_5fb2a40442664799869047f4ae3f62d0);
+        
+
+        marker_8f1f5534531d418596b35ecf0e5eb01d.bindPopup(popup_38a0a6242c4e46e9af22f8b9dda923d1)
+        ;
+
+        
+    
+    
+            var marker_353f4797559d47c9b4eede5f83039d67 = L.marker(
+                [10.672474000000001, 122.950732721079],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_264ccf54efca4ca2874248af1abb5fa8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_353f4797559d47c9b4eede5f83039d67.setIcon(icon_264ccf54efca4ca2874248af1abb5fa8);
+        
+    
+        var popup_d31cc96abff74dd88b5c5345d74cb3a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9941f09a510d441b9b16a174aa098c07 = $(`<div id="html_9941f09a510d441b9b16a174aa098c07" style="width: 100.0%; height: 100.0%;">Corazon Locsin Montelibano Memorial Regional Hospital Stage: 2</div>`)[0];
+            popup_d31cc96abff74dd88b5c5345d74cb3a4.setContent(html_9941f09a510d441b9b16a174aa098c07);
+        
+
+        marker_353f4797559d47c9b4eede5f83039d67.bindPopup(popup_d31cc96abff74dd88b5c5345d74cb3a4)
+        ;
+
+        
+    
+    
+            var marker_e0accef08ab04f3da17c549f3856be7c = L.marker(
+                [9.644282350000001, 123.85715514782609],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_f4fc13c81bf84094904731edb6fa8371 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e0accef08ab04f3da17c549f3856be7c.setIcon(icon_f4fc13c81bf84094904731edb6fa8371);
+        
+    
+        var popup_b72826c6250e47c18594455393895825 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1109a81332c0460ea17070b8c778396f = $(`<div id="html_1109a81332c0460ea17070b8c778396f" style="width: 100.0%; height: 100.0%;">Governor Celestino Gallares Memorial Hospital Stage: 2</div>`)[0];
+            popup_b72826c6250e47c18594455393895825.setContent(html_1109a81332c0460ea17070b8c778396f);
+        
+
+        marker_e0accef08ab04f3da17c549f3856be7c.bindPopup(popup_b72826c6250e47c18594455393895825)
+        ;
+
+        
+    
+    
+            var marker_dfaaf5b121de415daf0877c2d841f7f8 = L.marker(
+                [7.1998768, 124.23662781401399],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_5da254f21e7844cbaba36da8b51f5432 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dfaaf5b121de415daf0877c2d841f7f8.setIcon(icon_5da254f21e7844cbaba36da8b51f5432);
+        
+    
+        var popup_ffc0f67694df49cc82ba9fa7058954f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf1bad7a33f1434d84f93b943d2d018c = $(`<div id="html_cf1bad7a33f1434d84f93b943d2d018c" style="width: 100.0%; height: 100.0%;">Cotabato Regional Medical Center Stage: 2</div>`)[0];
+            popup_ffc0f67694df49cc82ba9fa7058954f2.setContent(html_cf1bad7a33f1434d84f93b943d2d018c);
+        
+
+        marker_dfaaf5b121de415daf0877c2d841f7f8.bindPopup(popup_ffc0f67694df49cc82ba9fa7058954f2)
+        ;
+
+        
+    
+    
+            var marker_334ea218920c41c09089204daf7040b8 = L.marker(
+                [14.636145249999998, 121.09845651491982],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_72b390c42d824cdcab7104413c10f1f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_334ea218920c41c09089204daf7040b8.setIcon(icon_72b390c42d824cdcab7104413c10f1f6);
+        
+    
+        var popup_e754ce2eb18645d38b2dbfae6c3daf98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcc469d225344fafb06cf80167ed09c8 = $(`<div id="html_fcc469d225344fafb06cf80167ed09c8" style="width: 100.0%; height: 100.0%;">Amang Rodriguez Memorial Medical Center Stage: 2</div>`)[0];
+            popup_e754ce2eb18645d38b2dbfae6c3daf98.setContent(html_fcc469d225344fafb06cf80167ed09c8);
+        
+
+        marker_334ea218920c41c09089204daf7040b8.bindPopup(popup_e754ce2eb18645d38b2dbfae6c3daf98)
+        ;
+
+        
+    
+    
+            var marker_cd35c12b272748778bfda95d1fd7281c = L.marker(
+                [14.6362541, 121.09768297483511],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_b718012ba71148cd845d71c085f78680 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd35c12b272748778bfda95d1fd7281c.setIcon(icon_b718012ba71148cd845d71c085f78680);
+        
+    
+        var popup_715e22b29ed44bad8e6cd5c09128b443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b1ae7869b154f83bbf9bc10577fa3d7 = $(`<div id="html_5b1ae7869b154f83bbf9bc10577fa3d7" style="width: 100.0%; height: 100.0%;">Marikina City Health Office Stage: 2</div>`)[0];
+            popup_715e22b29ed44bad8e6cd5c09128b443.setContent(html_5b1ae7869b154f83bbf9bc10577fa3d7);
+        
+
+        marker_cd35c12b272748778bfda95d1fd7281c.bindPopup(popup_715e22b29ed44bad8e6cd5c09128b443)
+        ;
+
+        
+    
+    
+            var marker_070b954c09824326a689b6db79294563 = L.marker(
+                [14.6263106, 120.98779066908772],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_7433fc8f9e034926ba637f64e0000429 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_070b954c09824326a689b6db79294563.setIcon(icon_7433fc8f9e034926ba637f64e0000429);
+        
+    
+        var popup_7b4498d1ce7c409d983d23efc231624a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8de07430aa7d46c5bae178813d28bbb3 = $(`<div id="html_8de07430aa7d46c5bae178813d28bbb3" style="width: 100.0%; height: 100.0%;">Chinese General Hospital and Medical Center Stage: 2</div>`)[0];
+            popup_7b4498d1ce7c409d983d23efc231624a.setContent(html_8de07430aa7d46c5bae178813d28bbb3);
+        
+
+        marker_070b954c09824326a689b6db79294563.bindPopup(popup_7b4498d1ce7c409d983d23efc231624a)
+        ;
+
+        
+    
+    
+            var marker_0c88aa7b82a74180b633cd7b3d9b8f13 = L.marker(
+                [18.060471, 120.55951799790661],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_3a063c72ce684aa9a7bdfce56ecb55e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0c88aa7b82a74180b633cd7b3d9b8f13.setIcon(icon_3a063c72ce684aa9a7bdfce56ecb55e1);
+        
+    
+        var popup_feab669be404449eb75d4fcda32bb59b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_97a17c20c1504e2b97c220fdc9e51fc2 = $(`<div id="html_97a17c20c1504e2b97c220fdc9e51fc2" style="width: 100.0%; height: 100.0%;">Mariano Marcos Memorial Hospital and Medical Center Stage: 2</div>`)[0];
+            popup_feab669be404449eb75d4fcda32bb59b.setContent(html_97a17c20c1504e2b97c220fdc9e51fc2);
+        
+
+        marker_0c88aa7b82a74180b633cd7b3d9b8f13.bindPopup(popup_feab669be404449eb75d4fcda32bb59b)
+        ;
+
+        
+    
+    
+            var marker_3a4e80779c7d46f9beca066d0658379c = L.marker(
+                [14.4267521, 121.0252262],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_2dba0f7bbb2f4163b383c0dd73316d57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3a4e80779c7d46f9beca066d0658379c.setIcon(icon_2dba0f7bbb2f4163b383c0dd73316d57);
+        
+    
+        var popup_b6294c099d5c48608e5f0bfaa34e89f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcbd41d99a83437598b59575c7c5be12 = $(`<div id="html_fcbd41d99a83437598b59575c7c5be12" style="width: 100.0%; height: 100.0%;">American Bio-Clinical Laboratories International Stage: 2</div>`)[0];
+            popup_b6294c099d5c48608e5f0bfaa34e89f1.setContent(html_fcbd41d99a83437598b59575c7c5be12);
+        
+
+        marker_3a4e80779c7d46f9beca066d0658379c.bindPopup(popup_b6294c099d5c48608e5f0bfaa34e89f1)
+        ;
+
+        
+    
+    
+            var marker_47a6e3c061514ae7b4e7c522f3169f72 = L.marker(
+                [14.41318165, 121.04355553786556],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_fb7d3144cb754394a46cba323e7df8ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_47a6e3c061514ae7b4e7c522f3169f72.setIcon(icon_fb7d3144cb754394a46cba323e7df8ed);
+        
+    
+        var popup_50bc252991864940804cd98d1bc2c9c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70de1fce3cd14530a4c50d6e8d7381d9 = $(`<div id="html_70de1fce3cd14530a4c50d6e8d7381d9" style="width: 100.0%; height: 100.0%;">Asian Hospital and Medical Center Stage: 2</div>`)[0];
+            popup_50bc252991864940804cd98d1bc2c9c5.setContent(html_70de1fce3cd14530a4c50d6e8d7381d9);
+        
+
+        marker_47a6e3c061514ae7b4e7c522f3169f72.bindPopup(popup_50bc252991864940804cd98d1bc2c9c5)
+        ;
+
+        
+    
+    
+            var marker_ca65d2c95a284aae9c40a567a04b544f = L.marker(
+                [14.3271614, 120.94337044525548],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_c8c5f62c1cb84465827e55083da640db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca65d2c95a284aae9c40a567a04b544f.setIcon(icon_c8c5f62c1cb84465827e55083da640db);
+        
+    
+        var popup_e7da5e9fecae4dc4ac8343f151ee3ae2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8469620a0abb4495bfaf74fcfe4e59fd = $(`<div id="html_8469620a0abb4495bfaf74fcfe4e59fd" style="width: 100.0%; height: 100.0%;">De La Salle Medical and Health Sciences Institute Stage: 2</div>`)[0];
+            popup_e7da5e9fecae4dc4ac8343f151ee3ae2.setContent(html_8469620a0abb4495bfaf74fcfe4e59fd);
+        
+
+        marker_ca65d2c95a284aae9c40a567a04b544f.bindPopup(popup_e7da5e9fecae4dc4ac8343f151ee3ae2)
+        ;
+
+        
+    
+    
+            var marker_10824d754bab428ea047cb1adb7be4aa = L.marker(
+                [16.591255949999997, 120.31824690186755],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_11cd470be9e14581a7c3103751a2306b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_10824d754bab428ea047cb1adb7be4aa.setIcon(icon_11cd470be9e14581a7c3103751a2306b);
+        
+    
+        var popup_919389977e5c49d6bf86a38f9c6a46d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55988813ebb94f76a24c102cdf993a65 = $(`<div id="html_55988813ebb94f76a24c102cdf993a65" style="width: 100.0%; height: 100.0%;">Ilocos Training and Regional Medical Center Stage: 2</div>`)[0];
+            popup_919389977e5c49d6bf86a38f9c6a46d0.setContent(html_55988813ebb94f76a24c102cdf993a65);
+        
+
+        marker_10824d754bab428ea047cb1adb7be4aa.bindPopup(popup_919389977e5c49d6bf86a38f9c6a46d0)
+        ;
+
+        
+    
+    
+            var marker_4c8df56db5784ec389424c1a19bbb202 = L.marker(
+                [14.2755232, 121.41913745864971],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_7d24325029c04169a6bca34cd8a0ad35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4c8df56db5784ec389424c1a19bbb202.setIcon(icon_7d24325029c04169a6bca34cd8a0ad35);
+        
+    
+        var popup_978fb9d7dd1b4e1a8c81c35dae9e8b4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aba31214d0d1494c88461f57609552e5 = $(`<div id="html_aba31214d0d1494c88461f57609552e5" style="width: 100.0%; height: 100.0%;">Laguna Medical Center Stage: 2</div>`)[0];
+            popup_978fb9d7dd1b4e1a8c81c35dae9e8b4f.setContent(html_aba31214d0d1494c88461f57609552e5);
+        
+
+        marker_4c8df56db5784ec389424c1a19bbb202.bindPopup(popup_978fb9d7dd1b4e1a8c81c35dae9e8b4f)
+        ;
+
+        
+    
+    
+            var marker_db996a1a0eb143199a5358df8a9864b9 = L.marker(
+                [14.07294125, 121.32871473761334],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_39bbbfe8436340e4981519abb7ca255a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_db996a1a0eb143199a5358df8a9864b9.setIcon(icon_39bbbfe8436340e4981519abb7ca255a);
+        
+    
+        var popup_0ad953af073b4bc7a5413293f8e68168 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72657670d6784af4bfc00994d68b0f97 = $(`<div id="html_72657670d6784af4bfc00994d68b0f97" style="width: 100.0%; height: 100.0%;">San Pablo City District Hospital Stage: 2</div>`)[0];
+            popup_0ad953af073b4bc7a5413293f8e68168.setContent(html_72657670d6784af4bfc00994d68b0f97);
+        
+
+        marker_db996a1a0eb143199a5358df8a9864b9.bindPopup(popup_0ad953af073b4bc7a5413293f8e68168)
+        ;
+
+        
+    
+    
+            var marker_a424a99c2d28468ea1313b8e39cc74d6 = L.marker(
+                [6.9069548, 122.08199736508482],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_e8caa1a7eaac4a239e56e9029756299b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a424a99c2d28468ea1313b8e39cc74d6.setIcon(icon_e8caa1a7eaac4a239e56e9029756299b);
+        
+    
+        var popup_54bb09d6a4a3413c855a6ded6978cf55 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93db7926477246479341204288f6008e = $(`<div id="html_93db7926477246479341204288f6008e" style="width: 100.0%; height: 100.0%;">Zamboanga City Medical Center Stage: 2</div>`)[0];
+            popup_54bb09d6a4a3413c855a6ded6978cf55.setContent(html_93db7926477246479341204288f6008e);
+        
+
+        marker_a424a99c2d28468ea1313b8e39cc74d6.bindPopup(popup_54bb09d6a4a3413c855a6ded6978cf55)
+        ;
+
+        
+    
+    
+            var marker_b1faf26abe8a4eeaa5fd4a529bc80870 = L.marker(
+                [7.0858407, 125.4854229848439],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_ea6cd3dfc429486495ab053c2a567fbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1faf26abe8a4eeaa5fd4a529bc80870.setIcon(icon_ea6cd3dfc429486495ab053c2a567fbe);
+        
+    
+        var popup_e71a7d6322b748faa06b2dd7020d26ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3a6033e2ca64adf93c6274b60217e34 = $(`<div id="html_b3a6033e2ca64adf93c6274b60217e34" style="width: 100.0%; height: 100.0%;">University of the Philippines Mindanao Stage: 2</div>`)[0];
+            popup_e71a7d6322b748faa06b2dd7020d26ee.setContent(html_b3a6033e2ca64adf93c6274b60217e34);
+        
+
+        marker_b1faf26abe8a4eeaa5fd4a529bc80870.bindPopup(popup_e71a7d6322b748faa06b2dd7020d26ee)
+        ;
+
+        
+    
+    
+            var marker_a1e6f5befabc48d19f2002d89129976f = L.marker(
+                [14.5720764, 121.046674],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_2b589c9d346746318880d376964a9a6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a1e6f5befabc48d19f2002d89129976f.setIcon(icon_2b589c9d346746318880d376964a9a6b);
+        
+    
+        var popup_23765c789eef42eb850e1e082b54f47c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_944743bdbf5a40b9a2249eb1c4cc524c = $(`<div id="html_944743bdbf5a40b9a2249eb1c4cc524c" style="width: 100.0%; height: 100.0%;">Philippine Red Cross National Headquarters Stage: 3</div>`)[0];
+            popup_23765c789eef42eb850e1e082b54f47c.setContent(html_944743bdbf5a40b9a2249eb1c4cc524c);
+        
+
+        marker_a1e6f5befabc48d19f2002d89129976f.bindPopup(popup_23765c789eef42eb850e1e082b54f47c)
+        ;
+
+        
+    
+    
+            var marker_cd387c024713431e923b4dc5a864709b = L.marker(
+                [14.5780333, 120.9855392067257],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_3fff01e3814240e7aceeb44bb561f483 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cd387c024713431e923b4dc5a864709b.setIcon(icon_3fff01e3814240e7aceeb44bb561f483);
+        
+    
+        var popup_164b969e564740eaa9e9e246981daa90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b65076c24cd46c19396851b984560fc = $(`<div id="html_4b65076c24cd46c19396851b984560fc" style="width: 100.0%; height: 100.0%;">Philippine General Hospital Stage: 4</div>`)[0];
+            popup_164b969e564740eaa9e9e246981daa90.setContent(html_4b65076c24cd46c19396851b984560fc);
+        
+
+        marker_cd387c024713431e923b4dc5a864709b.bindPopup(popup_164b969e564740eaa9e9e246981daa90)
+        ;
+
+        
+    
+    
+            var marker_e71355d8e27c40378192012e0a697e8a = L.marker(
+                [14.6348313, 121.05251230824189],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_1917311afcf64ac9b3a6221ee7c8386e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e71355d8e27c40378192012e0a697e8a.setIcon(icon_1917311afcf64ac9b3a6221ee7c8386e);
+        
+    
+        var popup_8ee3f6badf9744ea882f2deea522b093 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9992832e00eb4fb99a33d31a15302954 = $(`<div id="html_9992832e00eb4fb99a33d31a15302954" style="width: 100.0%; height: 100.0%;">Victoriano Luna Medical Center Stage: 4</div>`)[0];
+            popup_8ee3f6badf9744ea882f2deea522b093.setContent(html_9992832e00eb4fb99a33d31a15302954);
+        
+
+        marker_e71355d8e27c40378192012e0a697e8a.bindPopup(popup_8ee3f6badf9744ea882f2deea522b093)
+        ;
+
+        
+    
+    
+            var marker_b5e7ad90f4dc4bffaa5f2cfccb52af8b = L.marker(
+                [14.555140900000001, 121.04813809093798],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_c2d78415b8c043c096436787339141bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "default", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b5e7ad90f4dc4bffaa5f2cfccb52af8b.setIcon(icon_c2d78415b8c043c096436787339141bc);
+        
+    
+        var popup_a6f22e1ef92142268b13a53db72a95b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3e3754425c134b8f8fbf65c8f2dcc478 = $(`<div id="html_3e3754425c134b8f8fbf65c8f2dcc478" style="width: 100.0%; height: 100.0%;">St. Luke's Medical Center Global City Stage: 4</div>`)[0];
+            popup_a6f22e1ef92142268b13a53db72a95b2.setContent(html_3e3754425c134b8f8fbf65c8f2dcc478);
+        
+
+        marker_b5e7ad90f4dc4bffaa5f2cfccb52af8b.bindPopup(popup_a6f22e1ef92142268b13a53db72a95b2)
+        ;
+
+        
+    
+    
+            var marker_30126316bd4c4afd9946d249300232c7 = L.marker(
+                [14.41000685, 121.03714354240603],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_f159ea56c4e64eeaa54ab4bce0f83382 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_30126316bd4c4afd9946d249300232c7.setIcon(icon_f159ea56c4e64eeaa54ab4bce0f83382);
+        
+    
+        var popup_20ccf561c12446419dd6afca3ef81478 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15ba93db39d047c9b4a684b2a4545505 = $(`<div id="html_15ba93db39d047c9b4a684b2a4545505" style="width: 100.0%; height: 100.0%;">Research Institute for Tropical Medicine Stage: 5</div>`)[0];
+            popup_20ccf561c12446419dd6afca3ef81478.setContent(html_15ba93db39d047c9b4a684b2a4545505);
+        
+
+        marker_30126316bd4c4afd9946d249300232c7.bindPopup(popup_20ccf561c12446419dd6afca3ef81478)
+        ;
+
+        
+    
+    
+            var marker_16c5ce0ecc5b4321810ba27eb7bfdd5a = L.marker(
+                [16.4011964, 120.59612393285582],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_ea3a42464ec642219aefd9ee5a8c3742 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_16c5ce0ecc5b4321810ba27eb7bfdd5a.setIcon(icon_ea3a42464ec642219aefd9ee5a8c3742);
+        
+    
+        var popup_d91fd4bb82e2461683d5397953bb46f6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_988b847bb87140cc98a60ed977668678 = $(`<div id="html_988b847bb87140cc98a60ed977668678" style="width: 100.0%; height: 100.0%;">Baguio General Hospital and Medical Center Stage: 5</div>`)[0];
+            popup_d91fd4bb82e2461683d5397953bb46f6.setContent(html_988b847bb87140cc98a60ed977668678);
+        
+
+        marker_16c5ce0ecc5b4321810ba27eb7bfdd5a.bindPopup(popup_d91fd4bb82e2461683d5397953bb46f6)
+        ;
+
+        
+    
+    
+            var marker_1e6db1dd800d40d5a8664063cea18eb7 = L.marker(
+                [14.614117, 120.98058146200714],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_5c599de527054460996f51878bd9e816 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e6db1dd800d40d5a8664063cea18eb7.setIcon(icon_5c599de527054460996f51878bd9e816);
+        
+    
+        var popup_c8321ee995d24e9294dda789538f3900 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89fceb9621b947f6b3f4c29752b63069 = $(`<div id="html_89fceb9621b947f6b3f4c29752b63069" style="width: 100.0%; height: 100.0%;">San Lazaro Hospital Stage: 5</div>`)[0];
+            popup_c8321ee995d24e9294dda789538f3900.setContent(html_89fceb9621b947f6b3f4c29752b63069);
+        
+
+        marker_1e6db1dd800d40d5a8664063cea18eb7.bindPopup(popup_c8321ee995d24e9294dda789538f3900)
+        ;
+
+        
+    
+    
+            var marker_ebc6231e790247f592f3cfaf13dfd0fb = L.marker(
+                [10.30803345, 123.89154235860572],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_d9804d18474141b08f4f8af6541d6418 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ebc6231e790247f592f3cfaf13dfd0fb.setIcon(icon_d9804d18474141b08f4f8af6541d6418);
+        
+    
+        var popup_63d9c7a41757404e8731a20fca4f7e69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebe14a9283a74f748c78f82dcfeb30a9 = $(`<div id="html_ebe14a9283a74f748c78f82dcfeb30a9" style="width: 100.0%; height: 100.0%;">Vicente Sotto Memorial Medical Center Stage: 5</div>`)[0];
+            popup_63d9c7a41757404e8731a20fca4f7e69.setContent(html_ebe14a9283a74f748c78f82dcfeb30a9);
+        
+
+        marker_ebc6231e790247f592f3cfaf13dfd0fb.bindPopup(popup_63d9c7a41757404e8731a20fca4f7e69)
+        ;
+
+        
+    
+    
+            var marker_212fa35563c646b4810a46115bc941e4 = L.marker(
+                [7.09978495, 125.61950634691405],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_ab5b21a278a2483e9870be4362daabc3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_212fa35563c646b4810a46115bc941e4.setIcon(icon_ab5b21a278a2483e9870be4362daabc3);
+        
+    
+        var popup_d94b0f6a1a034bee8981768456ab1f6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b62f2c6ab4b04900b6e1239545d9c70d = $(`<div id="html_b62f2c6ab4b04900b6e1239545d9c70d" style="width: 100.0%; height: 100.0%;">Southern Philippines Medical Center Stage: 5</div>`)[0];
+            popup_d94b0f6a1a034bee8981768456ab1f6a.setContent(html_b62f2c6ab4b04900b6e1239545d9c70d);
+        
+
+        marker_212fa35563c646b4810a46115bc941e4.bindPopup(popup_d94b0f6a1a034bee8981768456ab1f6a)
+        ;
+
+        
+    
+    
+            var marker_d2fef5b36d38420db65614915cc6ce2f = L.marker(
+                [14.57913365, 120.98351328507022],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_799b5311c5c347d9b93b12ee1628ea63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2fef5b36d38420db65614915cc6ce2f.setIcon(icon_799b5311c5c347d9b93b12ee1628ea63);
+        
+    
+        var popup_c32e53c15c644d8c956bc61898161fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cea2f4399cc54f2c8ea183e5919ce68f = $(`<div id="html_cea2f4399cc54f2c8ea183e5919ce68f" style="width: 100.0%; height: 100.0%;">UP Manila Stage: 5</div>`)[0];
+            popup_c32e53c15c644d8c956bc61898161fe1.setContent(html_cea2f4399cc54f2c8ea183e5919ce68f);
+        
+
+        marker_d2fef5b36d38420db65614915cc6ce2f.bindPopup(popup_c32e53c15c644d8c956bc61898161fe1)
+        ;
+
+        
+    
+    
+            var marker_4a700b294a50419f807e67e0107ce94b = L.marker(
+                [14.64748145, 121.04587919677965],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_fd2703cdbed4451e966cb6d0c6b6a934 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a700b294a50419f807e67e0107ce94b.setIcon(icon_fd2703cdbed4451e966cb6d0c6b6a934);
+        
+    
+        var popup_71832b15fbe24667ba5c1069935dbd54 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_222ca82a59684ff88c3b728e36567e7c = $(`<div id="html_222ca82a59684ff88c3b728e36567e7c" style="width: 100.0%; height: 100.0%;">Lung Center of the Philippines Stage: 5</div>`)[0];
+            popup_71832b15fbe24667ba5c1069935dbd54.setContent(html_222ca82a59684ff88c3b728e36567e7c);
+        
+
+        marker_4a700b294a50419f807e67e0107ce94b.bindPopup(popup_71832b15fbe24667ba5c1069935dbd54)
+        ;
+
+        
+    
+    
+            var marker_2d57446a0091425a89a608ee8bb2e3de = L.marker(
+                [10.71881145, 122.54178735438887],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_4e2bbf1aa12e41b7a6af663b56603d2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d57446a0091425a89a608ee8bb2e3de.setIcon(icon_4e2bbf1aa12e41b7a6af663b56603d2c);
+        
+    
+        var popup_f226a7f170ef4723808ff0f036e8e4cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d22de9d8ee8e43d4b5d2ad9c92e03120 = $(`<div id="html_d22de9d8ee8e43d4b5d2ad9c92e03120" style="width: 100.0%; height: 100.0%;">Western Visayas Medical Center Stage: 5</div>`)[0];
+            popup_f226a7f170ef4723808ff0f036e8e4cd.setContent(html_d22de9d8ee8e43d4b5d2ad9c92e03120);
+        
+
+        marker_2d57446a0091425a89a608ee8bb2e3de.bindPopup(popup_f226a7f170ef4723808ff0f036e8e4cd)
+        ;
+
+        
+    
+    
+            var marker_7b07ba5fecb842329c7aa76b0b7ae89d = L.marker(
+                [13.146641200000001, 123.72344056451331],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_bfc5d8b630044b50a694054f60e9bad0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7b07ba5fecb842329c7aa76b0b7ae89d.setIcon(icon_bfc5d8b630044b50a694054f60e9bad0);
+        
+    
+        var popup_3a8bc12392644a8faac4305424cadb2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_239dc8de231f4d0e970603d0aa7d16ef = $(`<div id="html_239dc8de231f4d0e970603d0aa7d16ef" style="width: 100.0%; height: 100.0%;">Bicol Regional Diagnostic and Reference Laboratory Stage: 5</div>`)[0];
+            popup_3a8bc12392644a8faac4305424cadb2a.setContent(html_239dc8de231f4d0e970603d0aa7d16ef);
+        
+
+        marker_7b07ba5fecb842329c7aa76b0b7ae89d.bindPopup(popup_3a8bc12392644a8faac4305424cadb2a)
+        ;
+
+        
+    
+    
+            var marker_aed7b68af1c745188da3b169ec912704 = L.marker(
+                [14.6230026, 121.0231956],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_0188678989cf4df288a0b09c36c79749 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aed7b68af1c745188da3b169ec912704.setIcon(icon_0188678989cf4df288a0b09c36c79749);
+        
+    
+        var popup_22b99e78a52c4e7682ec57cdd11c4f3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96671d5823aa4f858277e57f75ec0440 = $(`<div id="html_96671d5823aa4f858277e57f75ec0440" style="width: 100.0%; height: 100.0%;">St. Luke's Medical Center - Quezon City Stage: 5</div>`)[0];
+            popup_22b99e78a52c4e7682ec57cdd11c4f3e.setContent(html_96671d5823aa4f858277e57f75ec0440);
+        
+
+        marker_aed7b68af1c745188da3b169ec912704.bindPopup(popup_22b99e78a52c4e7682ec57cdd11c4f3e)
+        ;
+
+        
+    
+    
+            var marker_d9ee3e7a41844d7597034e8e59d86c3d = L.marker(
+                [14.589964, 121.06906339610711],
+                {"radius": 6}
+            ).addTo(marker_cluster_2505d1e75dca48578b9738dd52129fca);
+        
+    
+            var icon_baf94da88de2482897bb6aa53606d91c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d9ee3e7a41844d7597034e8e59d86c3d.setIcon(icon_baf94da88de2482897bb6aa53606d91c);
+        
+    
+        var popup_2f3bbfdd8c9e4715a069197457b80b22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cfea9cd2ed44caea27a99751929a0fe = $(`<div id="html_8cfea9cd2ed44caea27a99751929a0fe" style="width: 100.0%; height: 100.0%;">The Medical City Ortigas Stage: 5</div>`)[0];
+            popup_2f3bbfdd8c9e4715a069197457b80b22.setContent(html_8cfea9cd2ed44caea27a99751929a0fe);
+        
+
+        marker_d9ee3e7a41844d7597034e8e59d86c3d.bindPopup(popup_2f3bbfdd8c9e4715a069197457b80b22)
+        ;
+
+        
+    
+</script>
