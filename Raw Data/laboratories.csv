@@ -5,15 +5,15 @@ UP National Institutes of Health,5,RT-PCR
 Lung Center of the Philippines,5,RT-PCR
 St. Luke's Medical Center - Quezon City,5,RT-PCR
 St. Luke's Medical Center - BGC,5,RT-PCR
-The Medical City - Ortigas,5,RT-PCR
+The Medical City,5,RT-PCR
 Victoriano Luna Medical Center,5,RT-PCR
 Detoxicare Molecular Diagnostics Laboratory,5,RT-PCR
 Makati Medical Center,5,RT-PCR
 Philippine Red Cross,5,RT-PCR
-Chinese General Hospital,5,RT-PCR
-PRC Logistics & Multipurpose Center,5,RT-PCR
-"Philippine Genome Center, UP Diliman",5,RT-PCR
-Marikina City Health Office,5,RT-PCR
+Chinese General Hospital and Medical Center,5,RT-PCR
+Philippine Red Cross Logistics & Multipurpose Center,5,RT-PCR
+Philippine Genome Center,5,RT-PCR
+Marikina Molecular Diagnostic Laboratory,5,RT-PCR
 Philippine General Hospital,5,RT-PCR
 Singapore Diagnostics,5,RT-PCR
 Baguio General Hospital and Medical Center,5,RT-PCR
@@ -22,9 +22,13 @@ Cebu TB Reference Laboratory,5,RT-PCR
 Southern Philippines Medical Center,5,RT-PCR
 Western Visayas Medical Center,5,RT-PCR
 Bicol Regional Diagnostic and Reference Laboratory,5,RT-PCR
-De La Salle University - Cavite,4,RT-PCR
+Eastern Visayas Regional Medical Center,5,RT-PCR
+Zamboanga City Medical Center,5,RT-PCR Gene Xpert
+De La Salle University - Cavite,5,RT-PCR
 Asian Hospital and Medical Center,4,RT-PCR
 Allegiant Regional Care Hospitals,4,RT-PCR
+Philippine Red Cross - Port Area,4,RT-PCR
+Eastern Visayas Regional Medical Center,4,RT-PCR Gene Xpert
 National Kidney and Transplant Institute,3,RT-PCR
 American Bio-Clinical Laboratories International,3,RT-PCR
 Hi-Precision Diagnostics Quezon City,3,RT-PCR
@@ -47,7 +51,6 @@ Bacolod Queen of Mercy Hospital,3,RT-PCR
 Teresita Jalandoni Provincial Hospital,3,RT-PCR
 West Visayas State University Medical Center,3,RT-PCR
 Divine Word Hospital,3,RT-PCR
-Eastern Visayas Regional Medical Center,3,RT-PCR
 Zamboanga City Medical Center,3,RT-PCR
 Department of Agriculture Field Office IX,3,RT-PCR
 Northern Mindanao Medical Center,3,RT-PCR
